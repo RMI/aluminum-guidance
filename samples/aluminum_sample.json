@@ -1,14 +1,10 @@
 {
   "id": "",
   "specVersion": "2.0.0",
-  "precedingPfIds": "",
   "version": "",
   "created": "",
   "updated": "",
   "status": "",
-  "statusComment": "",
-  "validityPeriodStart":"",
-  "validityPeriodEnd": "",
   "companyName": "",
   "companyIds": [
     "URN DataType"
@@ -25,16 +21,9 @@
     "declaredUnit":"",
     "unitaryProductAmount": "",
     "pCfExcludingBiogenic": "",
-    "pCfIncludingBiogenic": "",
     "fossilGhgEmissions": "",
     "fossilCarbonContent": "",
     "biogenicCarbonContent": "",
-    "dLucGhgEmissions": "",
-    "landManagementGhgEmissions": "",
-    "otherBiogenicEmissions": "",
-    "iLucGhgEmissions": "",
-    "biogenicCarbonWithdrawal": "",
-    "aircraftGhgEmissions": "",
     "characterizationFactors": "",    
     "crossSectoralStandardsUsed": [
       "GHG Protocol Product standard",
@@ -55,105 +44,50 @@
     "geographyCountrySubdivision": "",
     "geographyCountry": "",
     "geographyRegionOrSubregion": "",
-    "secondaryEmissionFactorSources":  [
-      {
-        "name": "",
-        "version": ""
-      }
-    ],
     "exemptedEmissionsPercent": "",
     "exemptedEmissionsDescription": "",
     "packagingEmissionsIncluded": "",
-    "packagingGhgEmissions": "",
-    "allocationRulesDescription": "",
-    "uncertaintyAssessmentDescription": "",
-    "primaryDataShare": "",
-    "dqi": 
-    {
-      "coveragePercent": "",
-      "technologicalDQR": "",
-      "temporalDQR": "",
-      "geographicalDQR": "",
-      "completenessDQR": "",
-      "reliabilityDQR": ""
-    },
-    "assurance": 
-    {
-      "coverage": "",
-      "level": "",
-      "boundary": "",
-      "providerName": "",
-      "completedAt": "",
-      "standardName": "",
-      "comments": ""
-    }
+    "primaryDataShare": ""
   },
   "extensions": [
     {
       "specVersion": "2.0.0",
-      "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-aluminum.json",
-      "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-aluminum/documentation/",
+      "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel.json",
+      "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel/documentation/",
       "data": {
-        "oreBasedFossilGhgEmissions": "",
-        "oreGeographyCountrySubdivision": "",
-        "oreGeographyCountry": "",
-        "oreGeographyRegionOrSubregion": "",
-        "recycledContent": [
-          {
-            "recycledPercentage": "",
-            "postConsumerPercentage":"",
-            "recylceName": "",
-            "recycleDescription": ""
-          }
-        ],
-        "processGroups": [
-          {
-            "processCompanyNames": ["Acme"],
-            "processCompanyIds": ["1"],
-            "processSteps": [
-              {
-                "siteName": "A",
-                "siteIds": ["1-a"],
-                "processNames": [
-                  "Pellet-plant",
-                  "Briquetting",
-                  "Casting"
-                ],
-                "processesGhgEmissions": "20",
-                "processPrimaryDataShare": "",
-                "exportProducts": [],
-                "exportGhgEmissions": "",
-                "recycledContent": [
-                  {
-                    "recycledPercentage": "",
-                    "postConsumerPercentage":"",
-                    "recylceName": "",
-                    "recycleDescription": ""
-                  }
-                ]
-              }
-            ]
+        "benchmarkingFootprint": {
+          "referencePeriodStart": "",
+          "referencePeriodEnd": "",
+          "mineToSmelter": {
+            "productDescription": "",
+            "productAmount": "",
+            "productDeclaredUnit": "",
+            "mineToSmelterGhgEmissions": "",
+            "geographyCountrySubdivision": "",
+            "geographyCountry": "",
+            "geographyRegionOrSubregion": ""
           },
-          {
-            "processCompanyNames": ["CoalCo"],
-            "processCompanyIds": ["2"],
-            "processSteps": 
-            [
-              {
-                "siteName": "",
-                "siteIds": "",
-                "processNames": [
-                  "Coal-mining"
-                ],
-                "processesGhgEmissions": "10",
-                "processPrimaryDataShare": "",
-                "exportProducts": [],
-                "exportGhgEmissions": "",
-                "recycledContent": []
-              }
-            ]
+          "valueAddedProduct": {
+            "productDescription": "",
+            "productAmount": "",
+            "productDeclaredUnit": "",
+            "ghgEmissionsCutoff": "",
+            "ghgEmissionsAllocation": "",
+            "scrapBasedShare": "",
+            "postConsumerScrapBasedShare": ""
           }
-        ]
+        },
+        "fullBoundaryFootprint": {
+          "referencePeriodStart": "",
+          "referencePeriodEnd": "",
+          "productDescription": "",
+          "productAmount": "",
+          "productDeclaredUnit": "",
+          "fullBoundaryGhgEmissions": "",
+          "geographyCountrySubdivision": "",
+          "geographyCountry": "",
+          "geographyRegionOrSubregion": ""
+        }
       }
     }
   ]
