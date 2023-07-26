@@ -4,18 +4,20 @@ This repository holds RMI's Aluminum Emissions Reporting Guidance, along with li
 ## Product Level Accounting Guidance
 The aluminum accounting guidance can be found [here:](https://rmi.org/wp-content/uploads/dlm_uploads/2023/05/aluminum_guidance_public_consultation.pdf)
 
-### Emissions Reporting Requirements
-There are four key requirements for reporting steel sector emissions using this Steel Emissions Reporting Guidance:
+### Principles
+There are three accounting principles for reporting aluminum sector emissions using this Aluminum Emissions Reporting Guidance:
 
-#### 1. Product level
-Emissions must be reported at the product level for an individual site.
+#### 1. Primary data
+As much as possible, emissions calculations should be based on first-hand information from various
+supply chain partners.
 
-#### 2. Fixed boundary
-All emissions from a set of processes must be reported irrespective of whether the company has
-ownership or control of these processes.
+#### 2. Consistent boundary for comparison
+Companies shall report emissions against a fixed boundary (i.e., a consistent
+set of processes) to enable comparability and consistency between disclosures.
 
-#### 3. Supply chain transparency
-Additional context about the scrap-based inputs, total carbon emissions intensity position relative to the 1.5C trajectory and abatement technology (refer to section 2.4 of the [accounting guidance](https://github.com/RMI/steel-guidance/blob/main/RMI%20Horizon%20Zero%20Steel%20Guidance.pdf)) to assist in understanding the overall emissions footprint.
+#### 3. Measurement made for market
+Ensure calculation and reporting decisions enable the development of a market for
+low-carbon products.
 
 ## Pathfinder Network Data Model Extension
 In addition to the Product Level Accounting Guidance, this repository contains supporting documents for a [Pathfinder Network](https://www.carbon-transparency.com/) Data Model Extension for Aluminum, which is designed to be used in concert with RMI's Aluminum Emissions Reporting Guidance.
