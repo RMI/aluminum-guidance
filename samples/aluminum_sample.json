@@ -52,8 +52,8 @@
   "extensions": [
     {
       "specVersion": "2.0.0",
-      "dataSchema": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel.json",
-      "documentation": "https://pathfinder.dev/data-schemas/1.0.0/rmi-steel/documentation/",
+      "dataSchema": "https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_schema.json",
+      "documentation": "https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_technical_specification.md",
       "data": {
         "benchmarkingFootprint": {
           "referencePeriodStart": "",
