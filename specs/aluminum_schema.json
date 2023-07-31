@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/RMI/metals-guidance/blob/main/samples/aluminum_test.json",
+  "$id": "https://github.dev/RMI/aluminum-guidance/blob/main/samples/aluminum_sample.json",
   "$schema": "https://github.com/RMI/metals-guidance/blob/main/specs/aluminum_json_schema.json",
   "title": "PACT RMI Aluminum Extension Schema",
   "description": "A Pathfinder Data Model Extension for sharing information emissions data in aluminum production.",
