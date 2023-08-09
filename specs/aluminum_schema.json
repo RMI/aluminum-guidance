@@ -41,7 +41,7 @@
           "type": "object",
           "items": {"$ref": "#/$defs/valueAddedProduct"}
         },
-        "required": ["referencePeriodStart","referencePeriodEnd","mineToSmelter"]
+        "required": ["mineToSmelter"]
       }
     },
     "fullBoundary": {
@@ -57,7 +57,7 @@
         "geographyCountry": {"type": "string"},
         "geographyRegionOrSubregion": {"type": "number"}
       },
-      "required": ["referencePeriodStart","referencePeriodEnd","productDescription","productDeclaredUnit","productAmount","fullBoundaryGhgEmissions","geographyCountry"]
+      "required": ["productDescription","productDeclaredUnit","productAmount","fullBoundaryGhgEmissions","geographyCountry"]
     }
   },
   "type": "object",
