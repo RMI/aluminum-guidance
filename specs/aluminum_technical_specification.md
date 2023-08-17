@@ -87,14 +87,15 @@ A geographical field for the ore-based or mine-to-smelter portion of the aluminu
 #### 4.4.1. Properties
 The properties of a FullBoundary are listed in the table below.
 
-| **Property**                     | **Type**  | **Req** | **Specification**                                                                                                                     |
-|----------------------------------|-----------|---------|---------------------------------------------------------------------------------------------------------------------------------------|
-| referencePeriodStart             | date-time | M       | Start date-time for the full boundary footprint calculation                                                                           |
-| referencePeriodEnd               | date-time | M       | End date-time for the full boundary footprint calculation                                                                             |
-| productDescription               | String    | M       | The free-form description of the product plus other<br>information related to it such as production technology or packaging.          |
-| productAmount                    | Number    | M       | The unit of analysis of the product                                                                                                   |
-| productDeclaredUnit              | String    | M       | The amount of productDeclaredUnits contained within the product                                                                       |
-| fullBoundaryGhgEmissions         | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, in ton CO2e per ton of aluminum semis |
-| geographyCountrySubdivision      | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
-| geographyCountry:<br>_ISO3166CC_ | String    | M       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
-| geographyRegionOrSubregion       | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                         |
+| **Property**                     | **Type**  | **Req** | **Specification**                                                                                                                                                     |
+|----------------------------------|-----------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| referencePeriodStart             | date-time | M       | Start date-time for the full boundary footprint calculation                                                                                                           |
+| referencePeriodEnd               | date-time | M       | End date-time for the full boundary footprint calculation                                                                                                             |
+| productDescription               | String    | M       | The free-form description of the product plus other<br>information related to it such as production technology or packaging.                                          |
+| productAmount                    | Number    | M       | The unit of analysis of the product                                                                                                                                   |
+| productDeclaredUnit              | String    | M       | The amount of productDeclaredUnits contained within the product                                                                                                       |
+| ghgEmissionsCutoff               | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, using the cut-off method, in ton CO2e per ton<br>of aluminum semis    |
+| ghgEmissionsAllocation           | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, using the allocation method, in ton CO2e per ton<br>of aluminum semis |
+| geographyCountrySubdivision      | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                                                         |
+| geographyCountry:<br>_ISO3166CC_ | String    | M       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                                                         |
+| geographyRegionOrSubregion       | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                                                         |
