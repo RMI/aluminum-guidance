@@ -52,12 +52,13 @@
         "productDescription": {"type": "string"},
         "productDeclaredUnit": {"type": "string"},
         "productAmount": {"type": "number"},
-        "fullBoundaryGhgEmissions": {"type": "number"},
+        "ghgEmissionsCutoff": {"type": "number"},
+        "ghgEmissionsAllocation": {"type": "number"},
         "geographyCountrySubdivision": {"type": "string"},
         "geographyCountry": {"type": "string"},
         "geographyRegionOrSubregion": {"type": "number"}
       },
-      "required": ["productDescription","productDeclaredUnit","productAmount","fullBoundaryGhgEmissions","geographyCountry"]
+      "required": ["productDescription","productDeclaredUnit","productAmount","ghgEmissionsCutoff","ghgEmissionsAllocation","geographyCountry"]
     }
   },
   "type": "object",
