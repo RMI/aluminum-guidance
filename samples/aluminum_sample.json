@@ -83,7 +83,8 @@
           "productDescription": "",
           "productAmount": "",
           "productDeclaredUnit": "",
-          "fullBoundaryGhgEmissions": "",
+          "ghgEmissionsCutoff": "",
+          "ghgEmissionsAllocation": "",
           "geographyCountrySubdivision": "",
           "geographyCountry": "",
           "geographyRegionOrSubregion": ""
