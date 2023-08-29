@@ -45,8 +45,8 @@ The properties of a BenchmarkingFootprint are listed in the table below.
 
 | **Property**                              | **Type**  | **Req** | **Specification**                                                               |
 |-------------------------------------------|-----------|---------|---------------------------------------------------------------------------------|
-| referencePeriodStart                      | date-time | M       | Start date-time for the benchmarking footprint <br>calculation                  |
-| referencePeriodEnd                        | date-time | M       | End date-time for the benchmarking footprint<br>calculation                     |
+| referencePeriodStart                      | date-time | O       | Start date-time for the benchmarking footprint <br>calculation                  |
+| referencePeriodEnd                        | date-time | O       | End date-time for the benchmarking footprint<br>calculation                     |
 | mineToSmelter:<br>_mineToSmelter_         | Object    | M       | Contains information related to the production of <br>primary aluminum          |
 | valueAddedProduct:<br>_valueAddedProduct_ | Object    | O       | Contains information related to the production of <br>final cast-house products |
 
@@ -58,12 +58,12 @@ The properties of a MineToSmelter are listed in the table below.
 
 | **Property**                     | **Type** | **Req** | **Specification**                                                                                                            |
 |----------------------------------|----------|---------|------------------------------------------------------------------------------------------------------------------------------|
-| productDescription               | String   | M       | The free-form description of the product plus other<br>information related to it such as production technology or packaging. |
-| productAmount                    | Number   | M       | The unit of analysis of the product                                                                                          |
-| productDeclaredUnit              | String   | M       | The amount of productDeclaredUnits contained within the product                                                              |
+| productDescription               | String   | O       | The free-form description of the product plus other<br>information related to it such as production technology or packaging. |
+| productAmount                    | Number   | O       | The unit of analysis of the product                                                                                          |
+| productDeclaredUnit              | String   | O       | The amount of productDeclaredUnits contained within the product                                                              |
 | mineToSmelterGhgEmissions        | Number   | M       | The emissions intensity for primary aluminum, in ton C02e per ton of <br>primary aluminum                                    |
 | geographyCountrySubdivision      | String   | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                |
-| goegraphyCountry:<br>_ISO3166CC_ | String   | M       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                |
+| goegraphyCountry:<br>_ISO3166CC_ | String   | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                |
 | geographyRegionOrSubregion       | String   | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                |
 ### 4.3. Data Type: ValueAddedProduct
 Contains information related to the production of final cast-house products. For more information see Sec 3.3.3 of RMI's [Aluminum Emissions Reportings Guidance.](https://rmi.org/wp-content/uploads/dlm_uploads/2023/05/aluminum_guidance_public_consultation.pdf)
@@ -73,9 +73,9 @@ The properties of a ValueAddedProduct are listed in the table below.
 
 | **Property**                              | **Type** | **Req** | **Specification**                                                                                                                                                    |
 |-------------------------------------------|----------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| productDescription                        | String   | M       | The free-form description of the product plus other<br>information related to it such as production technology or packaging.                                         |
-| productAmount                             | Number   | M       | The unit of analysis of the product                                                                                                                                  |
-| productDeclaredUnit                       | String   | M       | The amount of productDeclaredUnits contained within the product                                                                                                      |
+| productDescription                        | String   | O       | The free-form description of the product plus other<br>information related to it such as production technology or packaging.                                         |
+| productAmount                             | Number   | O       | The unit of analysis of the product                                                                                                                                  |
+| productDeclaredUnit                       | String   | O       | The amount of productDeclaredUnits contained within the product                                                                                                      |
 | ghgEmissionsCutoff                        | Number   | M       | The overall emissions footprint for the aluminum product as per the<br>benchmarking footprint, using the cut-off method, in ton CO2e per ton<br>of aluminum semis    |
 | ghgEmissionsAllocation                    | Number   | M       | The overall emissions footprint for the aluminum product as per the<br>benchmarking footprint, using the allocation method, in ton CO2e per ton<br>of aluminum semis |
 | scrapBasedShare:<br>_Percent_             | Number   | M       | The share of scrap-based input used to generate the product as per the<br>benchmarking boundary                                                                      |
@@ -89,13 +89,13 @@ The properties of a FullBoundary are listed in the table below.
 
 | **Property**                     | **Type**  | **Req** | **Specification**                                                                                                                                                     |
 |----------------------------------|-----------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| referencePeriodStart             | date-time | M       | Start date-time for the full boundary footprint calculation                                                                                                           |
-| referencePeriodEnd               | date-time | M       | End date-time for the full boundary footprint calculation                                                                                                             |
-| productDescription               | String    | M       | The free-form description of the product plus other<br>information related to it such as production technology or packaging.                                          |
-| productAmount                    | Number    | M       | The unit of analysis of the product                                                                                                                                   |
-| productDeclaredUnit              | String    | M       | The amount of productDeclaredUnits contained within the product                                                                                                       |
+| referencePeriodStart             | date-time | O       | Start date-time for the full boundary footprint calculation                                                                                                           |
+| referencePeriodEnd               | date-time | O       | End date-time for the full boundary footprint calculation                                                                                                             |
+| productDescription               | String    | O       | The free-form description of the product plus other<br>information related to it such as production technology or packaging.                                          |
+| productAmount                    | Number    | O       | The unit of analysis of the product                                                                                                                                   |
+| productDeclaredUnit              | String    | O       | The amount of productDeclaredUnits contained within the product                                                                                                       |
 | ghgEmissionsCutoff               | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, using the cut-off method, in ton CO2e per ton<br>of aluminum semis    |
 | ghgEmissionsAllocation           | Number    | M       | The overall emissions footprint for the aluminum product as per the<br>full reporting boundary, using the allocation method, in ton CO2e per ton<br>of aluminum semis |
 | geographyCountrySubdivision      | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                                                         |
-| geographyCountry:<br>_ISO3166CC_ | String    | M       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                                                         |
+| geographyCountry:<br>_ISO3166CC_ | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                                                         |
 | geographyRegionOrSubregion       | String    | O       | See [Pathfinder Data Model](https://wbcsd.github.io/data-exchange-protocol/v2/#dt-carbonfootprint-properties)                                                         |
