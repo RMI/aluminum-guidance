@@ -14,7 +14,7 @@
         "GeographyCountry": {"type": "string"},
         "GeographyRegionOrSubregion": {"type": "string"}
       },
-      "required": ["mineToSmelterProductDescription","mineToSmelterGhgEmissions","mineToSmelterGeographyCountry"]
+      "required": ["mineToSmelterGhgEmissions"]
     },
     "valueAddedProduct": {
       "type": "object",
@@ -26,7 +26,7 @@
         "scrapBasedShare": {"type": "number"},
         "postConsumerScrapBasedShare": {"type": "number"}
       },
-      "required": ["productDescription","ghgEmissionsCutoff","ghgEmissionsAllocation","scrapBasedShare","postConsumerScrapBasedShare"]
+      "required": ["ghgEmissionsCutoff","ghgEmissionsAllocation","scrapBasedShare"]
     }, 
     "benchmarking": {
       "type": "object",
@@ -58,7 +58,7 @@
         "geographyCountry": {"type": "string"},
         "geographyRegionOrSubregion": {"type": "number"}
       },
-      "required": ["productDescription","productDeclaredUnit","productAmount","ghgEmissionsCutoff","ghgEmissionsAllocation","geographyCountry"]
+      "required": ["ghgEmissionsCutoff","ghgEmissionsAllocation","geographyCountry"]
     }
   },
   "type": "object",
