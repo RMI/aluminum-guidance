@@ -13,9 +13,9 @@ The broad intent of the implementation of this guidance is to ensure the followi
 2. Credibly recognize aluminum producers leading the market in terms of climate performance.
 3. Accelerate the development of essential technologies for net-zero aluminum by ensuring sufficient information is
 available to link demand with supply.
-4. Enable end-users to compare climate performance across supplied aluminum products (of various specifications) to
+4. Enable end users to compare climate performance across supplied aluminum products (of various specifications) to
 better inform procurement decisions.
-5. To aid end-users in purchasing aluminum with credible and transparent climate data so they can demonstrate
+5. To aid end users in purchasing aluminum with credible and transparent climate data so they can demonstrate
 evidence of climate performancei
 to their customers.
 
