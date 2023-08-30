@@ -1,5 +1,5 @@
 # RMI Aluminum Emissions Reporting Guidance
-This repository holds the necessary tools and guidance for exchanging emissions data in line with RMI's Aluminum Emissions Reporting Guidance, along with licensing and sample files. 
+This repository holds the necessary tools and guidance for exchanging emissions data in line with RMI's Aluminum Emissions Reporting Guidance, along with licensing and sample files.
 
 The guidance was launched for a public consultation in June of 2023--you can read the announcement [here](https://rmi.org/delivering-a-net-zero-future-for-aluminum/) and related two-pager [here](https://rmi.org/wp-content/uploads/2022/08/horizon_zero_aluminum_two_pager.pdf).
 
@@ -34,12 +34,12 @@ set of processes) to enable comparability and consistency between disclosures.
 Ensure calculation and reporting decisions enable the development of a market for
 low-carbon products.
 
-## RMI Aluminum Data Model 
+## RMI Aluminum Data Model
 RMI's Aluminum Data Model enables the use of machine-readable sharing of the product level information calculated with [RMI's Aluminum Emissions Reporting Guidance.](https://rmi.org/wp-content/uploads/dlm_uploads/2023/06/aluminum_guidance_public_consultation.pdf)
 
 It has been designed as an extension to the [Pathfinder Data Model.](https://wbcsd.github.io/data-exchange-protocol/v2/#biblio-extensions-guidance) Extensions to the model allow for sector specific information to be added to the data model.
 
-### Properties 
+### Properties
 RMI's Aluminum Data Model is comprised of the following properties:
 
 #### Benchmarking
