@@ -58,9 +58,9 @@ RMI's Aluminum Data Model is comprised of the following properties:
 For the full techical specification of RMI's Aluminum Data Model Extension, see [here.](https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_technical_specification.md)
 
 #### Sample and Schema Files
-A sample file of the data model extension can be found [here.](https://github.com/RMI/aluminum-guidance/blob/main/samples/aluminum_sample.json) Note: this sample file includes the required fields for the Pathfinder Data Model file as well as RMI's Aluminum Data Model.
+A sample file of the data model can be found [here.](https://github.com/RMI/aluminum-guidance/blob/main/samples/aluminum_sample.json) Note: this sample file includes the required fields for the Pathfinder Data Model file as well as RMI's Aluminum Data Model.
 
-A json schema file for the data model extension can be found [here.](https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_schema.json)
+A json schema file for the data model can be found [here.](https://github.com/RMI/aluminum-guidance/blob/main/specs/aluminum_schema.json)
 
 ## Contacts
 
